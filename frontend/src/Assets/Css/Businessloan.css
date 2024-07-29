@@ -1,0 +1,63 @@
+.business-bg{
+    /* background-image: url(../img/Business-loan-bg.avif); */
+    background-image: url(../img/sbi3.jpg);
+    /* background: #ffd60a; */
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 100vh;
+}
+
+.business_banner_text{
+    font-size: 85px;
+    font-weight: 700;
+    /* color: whitesmoke; */
+    color: #D1A309;
+    text-align: center;   
+}
+
+.business_banner_text2{
+    font-size: 80px;
+    font-weight: 500;  
+    color: #900c3f;
+    /* color: whitesmoke; */
+    text-align: center;
+}
+
+.background-container_1{
+    position: relative;
+}
+
+.background-container_1::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% ;
+    background: url(../img/sbi2.png) no-repeat center ;
+    background-size: 'cover';
+    background-position: 'center';
+    opacity: .3;
+}   
+
+ .background-container_1 .table * {
+    background: transparent !important;
+}
+.background-container_1  .table-responsive {
+    /* background-color: hsl(0, 0%, 82%);    */
+    /* padding: 20px !important ;    */
+}
+
+.table_text{
+    color: #900c3f !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.table_text2{
+    font-weight: 600;
+    font-size: 16px;
+}

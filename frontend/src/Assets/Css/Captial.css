@@ -1,0 +1,79 @@
+.industries-card {
+    width: 100%;
+    /* You can adjust this value as needed */
+    background: #9595953b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* Adjust padding as needed */
+    border-radius: 2px;
+    transition: .3s;
+    height: 150px;
+    /* Set the height as needed */
+}
+
+.industries-card img {
+    width: 30px;
+    /* You can adjust this value as needed */
+}
+
+.industries-card:hover {
+    box-shadow: 0px 0px 20px 4px #fd4a15, 0px 0px 20px 4px #22f5ff73;
+    transition: transform 0.3s ease;
+    transform: scale(.9);
+}
+
+.business1-bg {
+    background-image: url(../img/Business-loan-bg.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.linear-gradient-text {
+    -webkit-background-clip: text;
+    /* Use the background as a mask */
+    background-clip: text;
+    /* Standard syntax */
+    letter-spacing: .004em;
+    /* Adjust letter spacing as needed */
+}
+
+.whatwedo .card {
+    box-shadow: 7px 5px 30px 0 #0000001f;
+    cursor: pointer;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    transition: .3s;
+    width: 100%
+}
+
+.card-icon img {
+    width: 40px;
+    height: 40px;
+    /* border-radius: 50%; */
+    padding: 2px;
+
+}
+
+.business-step {
+    color: #900c3f;
+}
+
+.business-bg-step {
+    background: #fed66e98;
+}
+
+.business-card-step {
+    background-color: #b0800698;
+}
+
+.business-card-step:hover {
+    transition: transform 0.3s ease;
+    transform: scale(.9);
+}

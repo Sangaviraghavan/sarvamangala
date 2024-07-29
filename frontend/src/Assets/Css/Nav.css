@@ -1,0 +1,321 @@
+.hero {
+    height: 90vh;
+    width: 100vw;
+    background-image: url(../img/perumal.png);
+    background-position: center;
+    background-size: cover;
+    animation-name: zoomIn;
+    animation-duration: 6s;
+    background-repeat: no-repeat;
+    /* Adjust the duration as needed */
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* @media (min-width: 1200px) {
+    @keyframes zoomIn {
+        from {
+            background-size: 100%;
+        }
+
+        to {
+            background-size: 107%;
+        }
+    }
+} */
+
+.hero2 {
+    height: 90vh;
+    width: 100vw;
+    background-image: url(../img/hero-banner/business-loan.jpg);
+    background-position: center;
+    background-size: cover;
+    animation-name: zoomIn;
+    animation-duration: 6s;
+    /* Adjust the duration as needed */
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    /* background-attachment: fixed; */
+}
+
+.hero3 {
+    height: 90vh;
+    width: 100vw;
+    background-image: url(../img/hero-banner/loan.jpg);
+    background-position: center;
+    background-size: cover;
+    animation-name: zoomIn;
+    animation-duration: 6s;
+    /* Adjust the duration as needed */
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    /* background-attachment: fixed; */
+}
+
+.hero-opacity {
+    background-color: rgba(0, 0, 0, 0.374);
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.nav-link {
+
+    color: white;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.nav-link:hover {
+    color: #eb571f !important;
+    border-top: 2px solid #900c3f;
+
+}
+
+.logo {
+    width: 120px;
+    border-radius: 10px;
+}
+
+hr {
+    font-size: 100px !important;
+    color: white;
+}
+
+.hero-h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blue-card {
+    background-color: #508fc0;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.red-card {
+    background-color: #cd5b59;
+    height: 180px;
+    border-radius: 20px;
+
+}
+
+.orange-card {
+    background-color: #e3744c;
+    height: 180px;
+    border-radius: 20px;
+
+}
+
+
+
+@keyframes color {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.hero-under-card {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 20px !important;
+    background: #222224;
+    color: white;
+}
+
+.hero-under-card:hover {
+    justify-content: center;
+}
+
+.card1 {
+    width: 300px;
+    height: 250px;
+    background: rgb(26, 24, 24);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.hover-icon {
+    background: linear-gradient(45deg, #30284e, rgb(243, 40, 4));
+    padding: 40px;
+    font-size: 30px;
+    width: fit-content;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    margin: 10px auto;
+    color: black;
+
+}
+
+.hover-tittle {
+    color: white;
+    font-size: 1.7rem;
+    margin: 10px auto;
+
+}
+
+.hover-text {
+    color: white;
+    font-size: 1rem;
+    margin: 10px auto;
+    display: none;
+    transition: 0.5s;
+}
+
+.card1:hover .hover-icon {
+    background: linear-gradient(45deg, #30284e, #f09);
+
+}
+
+.card1:hover .hover-text {
+    display: block;
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+}
+
+.nav-banner {
+    cursor: pointer;
+}
+
+#name-nav {
+    color: linear-gradient(300deg, #07D187 33%, #12C6D0 77%);
+    color: white;
+    font-size: 21px;
+}
+
+.navbar .navbar-brand {
+    width: 50px;
+}
+
+#home {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 98765;
+    color: white;
+    background: rgb(25 23 23 / 87%);
+
+}
+
+.nav-banner {
+    /* position: fixed; */
+    width: 100%;
+}
+
+.business1-bg {
+    background-image: url(../img/Business-loan-bg.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #900c3f;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background: #900c3f;
+    color: #fff;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.acco-head {
+    color: #900c3f;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.acco-head::after {
+    color: #900c3f;
+
+}
+
+.fall {
+    position: absolute;
+    top: -90px;
+
+    &.fall1 {
+        left: 0px;
+        transform: scaleX(-1);
+    }
+
+    &.fall2 {
+        right: 0px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #D1A309;
+  }
+  
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #fcfcfc;
+    border-top-color: #6b1515;
+    border-bottom-color: #fcfcfc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }

@@ -1,0 +1,48 @@
+.normal-card {
+    padding: 25px;
+    position: relative;
+    height: 200px;
+    justify-content: center;
+    transition: .3s; 
+    text-align: end;
+}
+
+.normal-card:hover p.bg-no{
+    text-align: center;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+}
+
+
+.normal-card  p , .normal-card h1{
+    position: relative;
+    z-index: 5;
+}
+
+p.bg-no {
+    position: absolute;
+    font-weight: bold;
+    font-size: 5rem;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+    z-index: 1;
+    color: #b8b8b84d;
+    transition: .3s;
+}
+
+.main-card > div:nth-child(1) .normal-card{
+    background: url('../img/service.png') center;
+    background-size: cover;
+}
+
+.main-card > div:nth-child(2) .normal-card{
+    background: url('../img/service2.png') center;
+    background-size: cover;
+}
+
+.main-card > div:nth-child(3) .normal-card{
+    background: url('../img/service1.png') center;
+    background-size: cover;
+}
